@@ -1,8 +1,8 @@
 public class Programmer {
 //Deiniendo variables
-    String name;
-    int age;
-    boolean wearGlasses;
+    private String name;
+    private int age;
+    private boolean wearGlasses;
     public Programmer(String name, int age, boolean wearGlasses){
         this.name = name;
         this.age = age;
