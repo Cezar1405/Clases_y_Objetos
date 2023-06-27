@@ -3,14 +3,19 @@ public class Programmer {
     String name;
     int age;
     boolean wearGlasses;
+    public Programmer(String name, int age, boolean wearGlasses){
+        this.name = name;
+        this.age = age;
+        this.wearGlasses = wearGlasses;
+    }
 
     public void drinkCoffe(){
         System.out.println("Expresso es el Sectreto!");
     }
     public void printDetails(){
-        System.out.println(name+" is a "+age+" programmer");
+        System.out.println(this.name+" is a "+this.age+" programmer");
     }
     public void hasGlasses(){
-        System.out.println("is "+name+" wearing glasses? "+wearGlasses);
+        System.out.println("is "+this.name+" wearing glasses? "+this.wearGlasses);
     }
 }
